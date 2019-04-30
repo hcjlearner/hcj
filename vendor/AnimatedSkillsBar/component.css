@@ -1,15 +1,46 @@
-#codeconSkills { font-size:16px;color:#fff;height:auto;}
-.codeconSkillbar { height:20px;position:relative;background:rgba(17, 17, 17, .3);margin:20px auto;}
-#codeconHTML { width:80%; animation:Animate-HTML 20s;-webkit-animation:Animate-HTML 20s;-moz-animation:Animate-HTML 20s;-o-animation:Animate-HTML 20s;height:20px;position:absolute;background-color:#ea8564;}
-@keyframes Animate-HTML { 
-    from { width:10px;} to { width:80%}
+#codeconSkills {
+    font-size: 16px;
+    color: #fff;
+    height: auto;
+ }
+ .codeconSkillbar {
+    height: 20px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+ }
+#codeconHTML {
+    width: 50%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 20px;
+    position: absolute;
+    background-color: #ea8564;
 }
-@-webkit-keyframes Animate-HTML { from { width:10px;}
-to { width:100%}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
 }
-@-moz-keyframes Animate-HTML { from { width:10px;}
-to { width:100%}
+to {
+    width: 50%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 10px;
 }
-@-o-keyframes Animate-HTML { from { width:10px;}
-to { width:100%}
+to {
+    width: 100%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
 }
