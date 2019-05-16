@@ -1,46 +1,100 @@
-#codeconSkills {
-    font-size: 16px;
-    color: #fff;
-    height: auto;
- }
- .codeconSkillbar {
-    height: 20px;
-    position: relative;
-    background: rgba(17, 17, 17, .3);
-    margin: 20px auto;
- }
-#codeconHTML {
-    width: 50%;
-    animation: Animate-HTML 4s;
-    -webkit-animation: Animate-HTML 4s;
-    -moz-animation: Animate-HTML 4s;
-    -o-animation: Animate-HTML 4s;
-    height: 20px;
-    position: absolute;
-    background-color: #ea8564;
-}
+/* vendor/AnimatedSkillsBar/component.css */
+
+.codeconSkills{font-size:16px;color:#fff;height:auto}
+
+.codeconSkillbar{height:20px;position:relative;background:rgba(17,17,17,.3);margin:20px auto}
+
+#codeconHTML{width:50%;animation:Animate-HTML 4s;-webkit-animation:Animate-HTML 4s;-moz-animation:Animate-HTML 4s;-o-animation:Animate-HTML 4s;height:20px;position:absolute;background-color:#ea8564}
+
+#codeconCSS{width:50%;animation:Animate-CSS 4s;-webkit-animation:Animate-CSS 4s;-moz-animation:Animate-CSS 4s;-o-animation:Animate-CSS 4s;height:20px;position:absolute;background-color:#ea8564}
+
+#codeconjQuery{width:50%;animation:Animate-jQuery 4s;-webkit-animation:Animate-jQuery 4s;-moz-animation:Animate-jQuery 4s;-o-animation:Animate-jQuery 4s;height:20px;position:absolute;background-color:#ea8564}
+
+#codeconJS{width:50%;animation:Animate-JS 4s;-webkit-animation:Animate-JS 4s;-moz-animation:Animate-JS 4s;-o-animation:Animate-JS 4s;height:20px;position:absolute;background-color:#ea8564}
+
+#codeconXML{width:50%;animation:Animate-XML 4s;-webkit-animation:Animate-XML 4s;-moz-animation:Animate-XML 4s;-o-animation:Animate-XML 4s;height:20px;position:absolute;background-color:#ea8564}
+
 @keyframes Animate-HTML {
-    from {
-    width: 10px;
+from{width:10px}
+to{width:50%}
 }
-to {
-    width: 50%}
-}@-webkit-keyframes Animate-HTML {
-    from {
-    width: 10px;
+@-webkit-keyframes Animate-HTML {
+from{width:10px}
+to{width:100%}
 }
-to {
-    width: 100%}
-}@-moz-keyframes Animate-HTML {
-    from {
-    width: 10px;
+@-moz-keyframes Animate-HTML {
+from{width:10px}
+to{width:100%}
 }
-to {
-    width: 100%}
-}@-o-keyframes Animate-HTML {
-    from {
-    width: 10px;
+@-o-keyframes Animate-HTML {
+from{width:10px}
+to{width:100%}
 }
-to {
-    width: 100%}
+
+@keyframes Animate-CSS {
+from{width:10px}
+to{width:50%}
+}
+@-webkit-keyframes Animate-CSS {
+from{width:10px}
+to{width:100%}
+}
+@-moz-keyframes Animate-CSS {
+from{width:10px}
+to{width:100%}
+}
+@-o-keyframes Animate-CSS {
+from{width:10px}
+to{width:100%}
+}
+
+@keyframes Animate-jQuery {
+from{width:10px}
+to{width:50%}
+}
+@-webkit-keyframes Animate-jQuery {
+from{width:10px}
+to{width:100%}
+}
+@-moz-keyframes Animate-jQuery {
+from{width:10px}
+to{width:100%}
+}
+@-o-keyframes Animate-jQuery {
+from{width:10px}
+to{width:100%}
+}
+
+@keyframes Animate-JS {
+from{width:10px}
+to{width:50%}
+}
+@-webkit-keyframes Animate-JS {
+from{width:10px}
+to{width:100%}
+}
+@-moz-keyframes Animate-JS {
+from{width:10px}
+to{width:100%}
+}
+@-o-keyframes Animate-JS {
+from{width:10px}
+to{width:100%}
+}
+
+@keyframes Animate-XML {
+from{width:10px}
+to{width:50%}
+}
+@-webkit-keyframes Animate-XML {
+from{width:10px}
+to{width:100%}
+}
+@-moz-keyframes Animate-XML {
+from{width:10px}
+to{width:100%}
+}
+@-o-keyframes Animate-XML {
+from{width:10px}
+to{width:100%}
 }
