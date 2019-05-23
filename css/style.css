@@ -1,34 +1,35 @@
-body{width :1100px; margin :25px auto; background-color :#ffffff; color :#000000; font :10px "微軟正黑體", Arial, Helvetica, sans-serif;}
+body { width: 1100px; margin: 25px auto; background-color: #ffffff; color: #000000; font: 10px "微軟正黑體", Arial, Helvetica, sans-serif; }
 
-/*aHeader > **/
-.aHeader{background-color :#ffc200; max-height :100px;}
-.aHeader:before{display :inline-block; vertical-align :top; content :""; width :70px; height :102px; background-color :#ffffff; position :relative; left :50px;}
-.bProfile{display :inline-block; position :relative;}
-.bProfile .img-profilo{display :inline-block;vertical-align :top;width: 120px;height: 120px;border-radius: 50%;background-color :#deff00;position :relative;top: -12px;left: -9px; z-index :0;}
-.bProfile .h1-tit{display :inline-block; vertical-align :middle; font-size :5em; margin :11px 0 0 5px; line-height :38px;}
-.bProfile .h1-tit span{display :block; font-size :0.6em; line-height :31px; margin-left :-3px;}
-.bProfile .h6-desc{ font-size :1.33em; font-weight :normal; letter-spacing :0.8px; position: absolute; top: 44px; left: 124px;}
-.bInfo{display :inline-block; float :right; width :54%;}
-.bInfo ul{width :100%; padding :0; margin :14px 0 0 0; list-style :none;}
-.bInfo .li-info a{vertical-align :top; font-size :1.6em; color :#000; text-decoration :none; padding-left :8px;}
-.bInfo .li-info{display :inline-block; margin :6px 20px;}
-.bInfo .li-info:before{display :inline-block; content :""; width :20px; height :20px; background-color :black; border-radius :20px;}
+/* aHeader >  */
+.aHeader { background-color: #ffc200; max-height: 100px; }
+.aHeader:before { display: inline-block; vertical-align: top; content: ""; width: 70px; height: 102px; background-color: #ffffff; position: relative; left: 50px; }
+.bProfile { display: inline-block; position: relative; }
+.bProfile .img-profilo { display: inline-block; vertical-align: top; width: 120px; height: 120px; border-radius: 50%; background-color: #deff00; position: relative; top: -12px; left: -9px; z-index: 0; }
+.bProfile .h1-tit { display: inline-block; vertical-align: middle; font-size: 5em; margin: 11px 0 0 5px; line-height: 38px; }
+.bProfile .h1-tit span { display: block; font-size: 0.6em; line-height: 31px; margin-left: -3px; }
+.bProfile .h6-desc { font-size: 1.33em; font-weight: normal; letter-spacing: 0.8px; position: absolute; top: 44px; left: 124px; }
+.bInfo { display: inline-block; float: right; width: 54%; }
+.bInfo ul { width: 100%; padding: 0; margin: 14px 0 0 0; list-style: none; }
+.bInfo .li-info a { vertical-align: top; font-size: 1.6em; color: #000; text-decoration: none; padding-left: 8px; }
+.bInfo .li-info { display: inline-block; margin: 6px 20px; }
+.bInfo .li-info:before { display: inline-block; content: ""; width: 20px; height: 20px; background-color: black; border-radius: 20px; }
 
 /*aMainer > **/
-.bContent{display :inline-block; vertical-align :top; width :calc(50% - 20px); margin-left :-4px; margin :0 40px 0 -4px;}
-.bContent:nth-child(odd){margin-left :0;}
-.bContent:nth-child(even){margin-right :0;}
-.bContent .h4-stit{background-color :#ffc200; padding :5px 0 5px 45px; font-size :1.6em; margin :5px 0 5px 15px; position :relative;}
-.bContent .h4-stit:before{display :inline-block; vertical-align :top; content :""; width :40px; height :40px; border-radius :50%; background-color :black; position :absolute; left :-15px; top :-3px;}
+.bContent { display: inline-block; vertical-align: top; width: calc(50% - 20px); margin-left: -4px; margin: 0 40px 0 -4px; }
+.bContent:nth-child(odd) { margin-left: 0; }
+.bContent:nth-child(even) { margin-right: 0; }
+.bContent .h4-stit { background-color: #ffc200; padding: 5px 0 5px 45px; font-size: 1.6em; margin: 5px 0 5px 15px; position: relative; }
+.bContent .h4-stit:before { display: inline-block; vertical-align: top; content: ""; width: 40px; height: 40px; border-radius: 50%; background-color: black; position: absolute; left: -15px; top: -3px; }
+.bContent .c-desc { margin: 25px 5px 0 30px; text-align: justify; font-size: 1.3em; line-height: 1.9em; }
 
 /* aExtender */
-.ul-profile-show { width: 952px; height: 497px; margin: 0 auto; list-style-type: none; position: relative;}
-.ul-profile-show:hover > .li-profile-show { opacity: 0.5; filter: alpha(opacity=50);}
-.ul-profile-show:hover > .li-profile-show:hover { opacity: 1; filter: alpha(opacity=100);}
-.li-profile-show { background: no-repeat; position: absolute; transition: all 0.3s linear;}
-.li-profile-show img { display: none;}
-.li-profile-show01 { width: 660px; height: 330px; background-image: url(../imgs/extender/profile-show01.jpg); top: 0; left: 0;}
-.li-profile-show02 { width: 328px; height: 165px; background-image: url(../imgs/extender/profile-show02.jpg); left: 0; bottom: 0;}
-.li-profile-show03 { width: 330px; height: 165px; background-image: url(../imgs/extender/profile-show03.jpg); left: 330px; bottom: 0;}
-.li-profile-show04 { width: 330px; height: 165px; background-image: url(../imgs/extender/profile-show04.jpg); top: 0; right: 0;}
-.li-profile-show05 { width: 330px; height: 330px; background-image: url(../imgs/extender/profile-show05.jpg); bottom: 0; right: 0;}
+.ul-profile-show { width: 952px; height: 497px; margin: 0 auto; list-style-type: none; position: relative; }
+.ul-profile-show:hover>.li-profile-show { opacity: 0.5; filter: alpha(opacity=50); }
+.ul-profile-show:hover>.li-profile-show:hover { opacity: 1; filter: alpha(opacity=100); }
+.li-profile-show { background: no-repeat; position: absolute; transition: all 0.3s linear; }
+.li-profile-show img { display: none; }
+.li-profile-show01 { width: 660px; height: 330px; background-image: url(../imgs/extender/profile-show01.jpg); top: 0; left: 0; }
+.li-profile-show02 { width: 328px; height: 165px; background-image: url(../imgs/extender/profile-show02.jpg); left: 0; bottom: 0; }
+.li-profile-show03 { width: 330px; height: 165px; background-image: url(../imgs/extender/profile-show03.jpg); left: 330px; bottom: 0; }
+.li-profile-show04 { width: 330px; height: 165px; background-image: url(../imgs/extender/profile-show04.jpg); top: 0; right: 0; }
+.li-profile-show05 { width: 330px; height: 330px; background-image: url(../imgs/extender/profile-show05.jpg); bottom: 0; right: 0; }
