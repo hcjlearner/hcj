@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <title>Vigor - Best Fitness in the city</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" href="../../CoStyle\style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../CoStyle/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
     <div class="aHeader">
-        <div class="bLogo">
+        <div class="blk bLogo">
             <a href="index.html" class="lnk-logo">VIGOR</a>
         </div>
-        <div class="bNav">
+        <div class="blk bNav">
             <ul class="ul-nav">
                 <li class="li-nav">
                     <a href="javascript:;" class="lnk-nav">Home
@@ -24,14 +24,19 @@
                     <a href="about.html" class="lnk-nav">About
                     </a>
                 </li>
-                <li class="li-nav">
+                <li class="li-nav subNav">
                     <a href="javascript:;" class="lnk-nav">Services
                         <i class="i-arrow">▼</i>
-                        <ul class="ul-subNav">
-                            <li class="li-subNav"><a href="teamClass.html" class="lnk-subNav">Team Class</a></li>
-                            <li class="li-subNav"><a href="private.html" class="lnk-subNav">Private Class</a></li>
-                        </ul>
                     </a>
+                    <ul class="ul-subNav">
+                        <li class="li-subNav">
+                            <a href="teamClass.html" class="lnk-subNav">Team Class</a>
+                        </li>
+                        <li class="li-subNav">
+                            <a href="private.html" class="lnk-subNav">Private Class</a>
+                        </li>
+                    </ul>
+
                 </li>
                 <li class="li-nav">
                     <a href="gallery.html" class="lnk-nav">Gallery
@@ -47,42 +52,51 @@
                 </li>
             </ul>
         </div>
-        <div class="bSearch">
+        <div class="blk bSearch">
             <form class="form-search"></form>
             <input type="text" class="ipt-search" placeholder="Search...">
         </div>
     </div>
     <div class="aBanner">
         <div class="bTits">
-            <h1 class="h1-tit titA">BEST FITNESS IN</h1>
+            <h1 class="h1-tit titA">BEST EXHIBITION IN</h1>
             <h1 class="h1-tit titB">THE CITY</h1>
         </div>
         <div class="bVideo">
-            <div class="lnk-video">▼</div>
-            <span class="txt-cont">Watch Video</span>
+            <div class="lnk-video">►</div>
+            
         </div>
+        <span class="txt-cont">Watch Video</span>
     </div>
     <div class="aMainer">
         <div class="ul-types">
             <li class="li-types">
+                <div class="cube-square"><i class="i-square01"></i></div>
                 <h6 class="h6-tits">Quality Service</h6>
-                <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquid facilis sapiente atque rem debitis dolores rerum asperiores, deleniti quia?</p> 
+                <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquid facilis sapiente
+                    atque rem debitis dolores rerum asperiores, deleniti quia?</p>
             </li>
             <li class="li-types">
+                <div class="cube-square"><i class="i-square02"></i></div>
                 <h6 class="h6-tits">Quality Service</h6>
-                <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati ut enim sunt asperiores iusto, dicta recusandae numquam qui similique iure.</p>
+                <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati ut enim sunt
+                    asperiores iusto, dicta recusandae numquam qui similique iure.</p>
             </li>
             <li class="li-types">
+                <div class="cube-square"><i class="i-square03"></i></div>
                 <h6 class="h6-tits">Quality Service</h6>
-                <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quibusdam eum quisquam expedita rem sint ullam, accusantium quasi rerum magnam.</p>
+                <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quibusdam eum
+                    quisquam expedita rem sint ullam, accusantium quasi rerum magnam.</p>
             </li>
             <li class="li-types">
+                <div class="cube-square"><i class="i-square04"></i></div>
                 <h6 class="h6-tits">Quality Service</h6>
-                <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea blanditiis accusamus temporibus doloribus. Eum eius reiciendis placeat, natus error similique.</p>
+                <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea blanditiis accusamus
+                    temporibus doloribus. Eum eius reiciendis placeat, natus error similique.</p>
             </li>
         </div>
     </div>
-    <script src="common.js"></script>
+    <script src="../js/common.js"></script>
 </body>
 
 </html>
