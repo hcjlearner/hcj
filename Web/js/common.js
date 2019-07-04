@@ -6,4 +6,16 @@ $(document).ready(function() {
     $subNav.hover(function() {
         $(this).toggleClass('active');
     });
+
+
+
+
+    $('.owl-carousel').owlCarousel({
+        loop: false,
+        margin: 10,
+        nav: true,
+        dots:false,
+        items: 1
+
+    })
 });

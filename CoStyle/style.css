@@ -3,6 +3,7 @@ a { display: inline-block; vertical-align: top; color: #007bff; text-decoration:
 body { font-family: "Helvetica Neue", Arial, sans-serif; }
 .aHeader { height: 84px; background-color: var(--white); position: relative; }
 .aHeader .blk { display: inline-block; vertical-align: top; }
+.i-square { display: inline-block; vertical-align: top; width: 64px; height: 64px; background: url(imgs/add.png) center no-repeat; transform: rotate(-45deg); padding: 6px; }
 
 /*.bLogo*/
 .aHeader .bLogo { }
@@ -33,10 +34,23 @@ body { font-family: "Helvetica Neue", Arial, sans-serif; }
 .aBanner .bTits .h1-tit { font-size: 80px; color: #fff; line-height: 1.2; text-align: center; margin: 0; }
 .aBanner .bVideo { width: 80px; height: 80px; margin: 40px auto 0; }
 .aBanner .bVideo .i-video { display: inline-block; width: 50px; height: 50px; margin-left: -4px; padding: 5px 3px 5px 7px; border-radius: 50%; line-height: 50px; background-color: white; transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease; -ms-transition: all .2s ease; -o-transition: all .2s ease; }
-.aBanner .bVideo .i-video:hover { width: 70px; height: 70px; line-height: 70px; margin-top: -10px; }
+.aBanner .bVideo .i-video:hover { transform: scale(1.2); }
 .aBanner .bVideo~.txt-cont { display: block; font-size: 17px; color: #fff; }
-.aMainer .cube-square { display: inline-block; vertical-align: top; width: 90px; height: 90px; border: 2px solid #007bff; border-radius: 7px; text-align: center; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
-.aMainer .li-types { display: inline-block; vertical-align: top; width: 180px; margin: 5% 2% 0; text-align: center; }
-.aMainer .ul-types { text-align: center; }
-.aMainer .h6-tits { font-size: 20px; font-weight: bold; margin: 40px 0 10px; }
-.aMainer .p-desc { color: #555; line-height: 1.5;}
+.aMainerA .cube-square { display: inline-block; vertical-align: top; width: 90px; height: 90px; border: 2px solid #007bff; border-radius: 7px; text-align: center; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
+.aMainerA .li-types { display: inline-block; vertical-align: top; width: 180px; margin: 5% 2% 0; text-align: center; }
+.aMainerA .ul-types { text-align: center; padding-left: 0; }
+.aMainerA .h6-tits { font-size: 20px; font-weight: bold; margin: 40px 0 10px; }
+.aMainerA .p-desc { color: #555; line-height: 1.5; }
+
+/*bIntro*/
+.aMainerA .img-intro01, .aMainerA .arti-intro01 { display: inline-block; vertical-align: top; width: 50%; height: 455px; margin-left: -4px; }
+.aMainerA .img-intro01 { background: url(imgs/hero_1.jpg) left center no-repeat; }
+.aMainerA .arti-intro01 { padding: 50px; box-sizing: border-box; }
+.aMainerA .arti-intro01 .h2-tit { font-size: 48px; margin-top: 0;}
+.aMainerA .arti-intro01 .txt { font-size: 17px; line-height: 1.5; color: #555; letter-spacing: 2px; }
+
+
+/*typesB*/
+.typesB .i-square { transform: rotate(0); }
+.typesB .h6-tits { margin-top: 5px; }
+.typesB .li-types { width: 320px; margin: 5% 4% 5% calc(4% - 4px); }
