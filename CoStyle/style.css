@@ -46,11 +46,35 @@ body { font-family: "Helvetica Neue", Arial, sans-serif; }
 .aMainerA .img-intro01, .aMainerA .arti-intro01 { display: inline-block; vertical-align: top; width: 50%; height: 455px; margin-left: -4px; }
 .aMainerA .img-intro01 { background: url(imgs/hero_1.jpg) left center no-repeat; }
 .aMainerA .arti-intro01 { padding: 50px; box-sizing: border-box; }
-.aMainerA .arti-intro01 .h2-tit { font-size: 48px; margin-top: 0;}
+.aMainerA .arti-intro01 .h2-tit { font-size: 48px; margin-top: 0; }
 .aMainerA .arti-intro01 .txt { font-size: 17px; line-height: 1.5; color: #555; letter-spacing: 2px; }
-
 
 /*typesB*/
 .typesB .i-square { transform: rotate(0); }
 .typesB .h6-tits { margin-top: 5px; }
 .typesB .li-types { width: 320px; margin: 5% 4% 5% calc(4% - 4px); }
+
+/*aMainB*/
+.owl-carousel .owl-item img { display: inline-block; vertical-align: top; width: 60px; border-radius: 50%; }
+.owl-carousel .owl-item .arti { display: inline-block; vertical-align: top; width: calc(50% - 64px); padding: 10px; }
+.owl-carousel .owl-item .h6-tit { margin: 5px 0; }
+.owl-carousel .owl-item .item { background-color: #eaeaea; width: 58%; margin: 0 auto; padding: 40px; }
+.owl-carousel .owl-item .txt { line-height: 1.6; }
+
+/* .owl-carousel .owl-item .bCard:after {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 1px;
+    height: 60px;
+} */
+.aMainerB .h2-tit { font-size: 48px; text-align: center; margin: 80px 0 20px; }
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev { font-size: 80px; line-height: 1.2; width: 50px; }
+.owl-carousel .owl-nav button span {  /*visibility: hidden; background: url(imgs/arrow.png) left center no-repeat;*/ }
+.owl-theme .owl-nav [class*=owl-]:hover { background: 0 0; color: #555;outline: none;}
+
+/*aMainerC*/
+.aMainerC { background-color: #0e6fff; text-align: center; color: #fff; padding: 30px; }
+.aMainerC .h3-tit { font-size: 28px; }
+.aMainerC .txt { display: block; }
+.aMainerC .lnk-touch { background-color: #ffc107; font-size: 13px; font-weight: bold; letter-spacing: 1px; padding: 15px; border-radius: 3px; color: #000; margin: 15px 0; }
