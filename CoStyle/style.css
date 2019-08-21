@@ -25,7 +25,6 @@ body { font-family: "Helvetica Neue", Arial, sans-serif; }
 .lnk-mb.on>span:nth-of-type(3) { -webkit-transform: translateY(-7px) rotate(45deg); -ms-transform: translateY(-7px) rotate(45deg); transform: translateY(-7px) rotate(45deg); top: 7px; }
 .lnk-mb.on ~ .bNav { display: block; }
 
-
 /*.bSearch*/
 .aHeader .bSearch { position: absolute; right: 30px; top: 0; }
 .aHeader .ipt-search { border: none; border-bottom: 1px solid #c5c5c5; height: 44px; padding-left: 30px; outline: none; background: url(imgs/header/magnifier-tool.png) left center no-repeat; background-size: 17px; }
@@ -82,15 +81,51 @@ body { font-family: "Helvetica Neue", Arial, sans-serif; }
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev { font-size: 80px; line-height: 1.2; width: 50px; }
 .owl-carousel .owl-nav button span {    /*visibility: hidden; background: url(imgs/arrow.png) left center no-repeat;*/ }
 .owl-theme .owl-nav [class*=owl-]:hover { background: 0 0; color: #555; outline: none; }
-
-
 @media screen and (max-width:1000px) {
-    .aHeader .bNav, .aHeader .bSearch { display: none; }
-    .aHeader .lnk-mb { display: inline-block; }
-     /*bNav*/
-    .aHeader .bNav { background-color: white;}
-    .aHeader .ul-nav { padding: 0; }
-    .aHeader .li-nav { display: block; }
-    .aHeader .lnk-nav { line-height: 50px;}
-    .aHeader .li-nav.active .ul-subNav {  }   
+	.aHeader .bNav, .aHeader .bSearch { display: none; }
+	.aHeader .lnk-mb { display: inline-block; }
+
+	/*bNav*/
+	.aHeader .bNav { background-color: white; }
+	.aHeader .ul-nav { padding: 0; }
+	.aHeader .li-nav { display: block; }
+	.aHeader .lnk-nav { line-height: 50px; }
+	.aHeader .li-nav.active .ul-subNav { }
+}
+
+/*LangTool*/
+
+/*.LangTool { position: fixed; right: 0; top: 35vh; -webkit-writing-mode: vertical-lr; -ms-writing-mode: tb-lr; writing-mode: vertical-lr; display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; padding: 7px }
+.LangTool .txt { color: #1f1f1f; font-family: Times New Roman; font-weight: bold; line-height: 27px; border-bottom: 1px solid #1f1f1f; padding: 10px 5px 15px; letter-spacing: 1px }
+.LangTool .flags { display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; margin: 7px 0 }
+.LangTool .flag { width: 18px; height: 18px; padding: 10px; margin: 5px 0; text-indent: -999em; background-position: center; background-repeat: no-repeat; background-size: contain }
+.flag-hk { background-image: url(../CoStyle/imgs/lang/flag-hk-hover.png) }
+.flag-hk.on, .flag-hk:hover { background-image: url(../CoStyle/imgs/lang/flag-hk.png) }
+.flag-en { background-image: url(../CoStyle/imgs/lang/flag-en-hover.png) }
+.flag-en.on, .flag-en:hover { background-image: url(../CoStyle/imgs/lang/flag-en.png) }
+@media screen and (max-width:600px) {
+.LangTool { position: static; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: lr-tb; writing-mode: horizontal-tb; right: auto; top: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: #585858; padding: 0 }
+.LangTool .txt { border-bottom: none; border-right: 1px solid #fff; padding: 0 10px 0 0; letter-spacing: 0px; font-weight: normal; color: #fff }
+.LangTool .flags { padding: 5px 10px }
+.LangTool .flag { margin: 0 5px; width: 15px; height: 15px }
+.LangTool .flag-hk.on, .LangTool .flag-hk:hover { background-image: url(../CoStyle/imgs/lang/flag-hk.png) }
+.LangTool .flag-en.on, .LangTool .flag-en:hover { background-image: url(../CoStyle/imgs/lang/flag-en.png) }
+}
+*/
+@media screen and (min-width:769px){
+.LangTool { display: flex; justify-content: center; background-color: #3f3f3f; color: #fff; font-family: Times New Roman; height: 60px; align-items: center; font-size: 20px; }
+.LangTool .txt { border-right: 2px solid white; padding: 0 10px 0 0; margin: 0 10px 0 0; }
+.flag-hk { background-image: url(../CoStyle/imgs/lang/flag-hk.png); background-repeat-x: no-repeat; text-indent: -999em; width: 40px; height: 40px; opacity: 0.5; }
+.flag-en { background-image: url(../CoStyle/imgs/lang/flag-en.png); background-repeat-x: no-repeat; text-indent: -999em; width: 40px; height: 40px; opacity: 0.5; }
+.flag-hk.on, .flag-hk:hover { opacity: 1; }
+.flag-en.on, .flag-en:hover { opacity: 1; }
+}
+
+@media screen and (max-width:768px){
+.LangTool { display: flex; justify-content: center; background-color: #3f3f3f; color: #fff; font-family: Times New Roman; height: 60px; align-items: center; font-size: 20px; }
+.LangTool .txt { border-right: 2px solid white; padding: 0 10px 0 0; margin: 0 10px 0 0; }
+.flag-hk { background-image: url(../CoStyle/imgs/lang/flag-hk.png); background-repeat-x: no-repeat; text-indent: -999em; width: 40px; height: 40px; opacity: 0.5; }
+.flag-en { background-image: url(../CoStyle/imgs/lang/flag-en.png); background-repeat-x: no-repeat; text-indent: -999em; width: 40px; height: 40px; opacity: 0.5; }
+.flag-hk.on, .flag-hk:hover { opacity: 1; }
+.flag-en.on, .flag-en:hover { opacity: 1; }
 }
