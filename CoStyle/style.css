@@ -47,7 +47,7 @@ body { font-family: "Helvetica Neue", Arial, sans-serif; }
 .aBanner .bVideo~.txt-cont { display: block; font-size: 17px; color: #fff; }
 .aMainerA .cube-square { display: inline-block; vertical-align: top; width: 90px; height: 90px; border: 2px solid #007bff; border-radius: 7px; text-align: center; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
 .aMainerA .li-types { display: inline-block; vertical-align: top; width: 180px; margin: 5% 2% 0; text-align: center; }
-.aMainerA .ul-types { text-align: center; padding-left: 0; }
+.aMainerA .ul-types { display: flex; justify-content: space-around; text-align: center; padding-left: 0; }
 .aMainerA .h6-tits { font-size: 20px; font-weight: bold; margin: 40px 0 10px; }
 .aMainerA .p-desc { color: #555; line-height: 1.5; }
 
