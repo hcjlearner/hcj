@@ -1,0 +1,28 @@
+{
+  "name": "hcj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcjlearner/hcj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcjlearner/hcj/issues"
+  },
+  "homepage": "https://github.com/hcjlearner/hcj#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-purgecss": "^1.2.0",
+    "jshint": "^2.10.2",
+    "jshint-stylish": "^2.2.1"
+  }
+}
